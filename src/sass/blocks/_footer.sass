@@ -1,6 +1,10 @@
 .footer
     height: 630px
     position: relative
+    iframe
+        width: 100%
+        height: 630px
+        border-style: 0
     &__info
         position: absolute
         top: 0
@@ -18,6 +22,12 @@
         font-weight: 500
         line-height: 20px
         text-align: center
+        text-decoration: none
+        transition: 0.5s all
+        &:hover
+            text-decoration: underline
+            color: #fff
+            font-size: 24px
     &__phone
         display: block
         color: #ffffff
